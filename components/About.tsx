@@ -27,7 +27,7 @@ export default function About({}: Props) {
           Here is a <span className="underline decoration-[#03AC13]">little</span> background
         </h4>
         <p className="text-base">
-          I'm Ikram. I am a frontend developer, experienced in leading cross- functional teams in a time-pressured setting too. complete projects on schedule and within budget. Strong skills include Nextjs, React, Nodejs, Data Structure,
+          Im Ikram. I am a frontend developer, experienced in leading cross- functional teams in a time-pressured setting too. complete projects on schedule and within budget. Strong skills include Nextjs, React, Nodejs, Data Structure,
           Algorithms, RESTful APIs, UI/UX, Web3 Engineering, and Figma Design.
         </p>
       </div>
