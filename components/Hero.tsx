@@ -14,17 +14,16 @@ export default function Hero({}: Props) {
     delaySpeed: 2000,
   });
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
-      <BackgroundCircle />
+    <div className="h-screen flex flex-col space-y-5 items-center justify-center text-center overflow-hidden">
       <Image className="relative rounded-full h-32 w-32 mx-auto object-cover" src={pp} alt="Photo Profile" />
-      <div className="z-20">
+      <div className="z-10">
         <h2 className="text-sm uppercase text-gray-500 pb-2  tracking-[10px]">Web Developer</h2>
         <h1 className="text-4xl lg:text-5xl font-semibold px-10">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#03AC13" />
         </h1>
 
-        <div className="pt-5">
+        <div className="pt-5 ">
           <Link href="#about">
             <button className="heroButton">About</button>
           </Link>
@@ -39,6 +38,7 @@ export default function Hero({}: Props) {
           </Link>
         </div>
       </div>
+      <BackgroundCircle />
     </div>
   );
 }
